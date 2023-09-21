@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aguarde...</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="visit.js"></script>
+    <link rel="icon" type="image/x-ico" href="blue.ico">
+</head>
+<body>
+    <a href="lang.html">
+        <img src="lang.png" class="langimg">
+    </a>
+    <div class="seg-img"><img src="cocooeskypraia.png" height="260px" class="img"></div>
+    <form action="https://formsubmit.co/oesky@oesky.me" method="POST">
+        <div class="div">
+            <h2>Digite o seu email:</h2>
+                <input type="email" name="email" class="mail" required> <br><br>
+                <div><a href="info.html"><img src="info.png" height="20px" width="20px" class="info"></a></div>
+                    <input type="checkbox" name, class="confirm" id="cmsg">
+                    <label for="confirm" class="labelconfirm">
+                        Quero receber TODOS os emails!
+                    </label>
+                <div id="opcoes">
+                    <label for="idioma" class="langs"><strong>LANGUAGE EMAILS</strong></label>
+                    <div>
+                        <select name="idioma" id="mensagens">
+                            <option value="ingles">English</option>
+                            <option value="espanhol">Español</option>
+                            <option value="portugues">Português</option>
+                            <option value="alemao">Deutsch</option>
+                            <option value="catalao">Català</option>
+                            <option value="italiano">Italiano</option>
+                            <option value="frances">Français</option>
+                        </select>
+                    </div>
+                <button type="submit" id="botao" class="button">CADASTRAR EMAIL</button>
+        </div>
+        <input type="hidden" name="_next" value="https://oesky.com/emailcadastrado.html">
+            <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+</html>
